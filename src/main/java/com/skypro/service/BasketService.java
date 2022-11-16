@@ -20,6 +20,10 @@ public class BasketService {
         return basket.get(basket.size()-1);
     }
 
+    public void addListToBasket(List<Integer> intList){
+        basket.addAll(intList);
+    }
+
     public List<Integer> getBasket(){
         return basket;
     }

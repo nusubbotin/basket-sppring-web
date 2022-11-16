@@ -30,3 +30,10 @@ Content-Type: application/json
 ### получаем список элементов в корзине
 GET http://localhost:8080/store/get
 Content-Type: application/json
+
+
+###Добавление список элементов в корзину
+POST http://localhost:8080/store/addList
+Content-Type: application/json
+
+[ 1, 2, 3, 4, 5]
