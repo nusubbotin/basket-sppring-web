@@ -1,0 +1,32 @@
+### добавляем 1ый элемент в корзину
+POST http://localhost:8080/store/add?value=1
+Content-Type: application/json
+
+### добавляем 2ый элемент в корзину
+POST http://localhost:8080/store/add?value=2
+Content-Type: application/json
+
+### добавляем 3ый элемент в корзину с повторяющимся значением
+POST http://localhost:8080/store/add?value=2
+Content-Type: application/json
+
+### получаем список элементов в корзине
+GET http://localhost:8080/store/get
+Content-Type: application/json
+
+### Корзина 2а запускаем в браузере или в постмане
+### добавляем 1ый элемент в корзину
+POST http://localhost:8080/store/add?value=3
+Content-Type: application/json
+
+### добавляем 2ый элемент в корзину
+POST http://localhost:8080/store/add?value=4
+Content-Type: application/json
+
+### добавляем 3ый элемент в корзину с повторяющимся значением
+POST http://localhost:8080/store/add?value=3
+Content-Type: application/json
+
+### получаем список элементов в корзине
+GET http://localhost:8080/store/get
+Content-Type: application/json
